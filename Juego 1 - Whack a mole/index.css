@@ -1,0 +1,55 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.vidas{
+    width: 15%;
+    
+    
+   
+}
+
+.imgvidas{
+   
+  
+    width: 65%;
+}
+
+.contenedor-cuadrado{
+    width: 700px;
+    height: 700px;
+}
+
+.cuadrado {
+    display: inline-block;
+    width: 24%;
+    height: 24%;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.cuadrado:hover {
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.caraSeba{
+    background-image: url('./img/7\ BUENO_MAD_0015_CUADRADA.jpg');
+    background-size: contain;
+}

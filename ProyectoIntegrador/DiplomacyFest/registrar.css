@@ -1,0 +1,103 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/ProyectoIntegrador/Img/DF\ FondoMesa\ de\ trabajo\ 14.png)no-repeat;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+color: #ffffff;
+text-align: center; 
+margin-top: 40px;
+
+
+} 
+
+
+.form-register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+
+.form__titulo{
+background: #00aae4 ;
+color: #ffffff;
+padding: 20px;
+text-align: center;
+font-weight: 100;
+font-size: 30px;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+border-bottom: 5px solid darkblue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+.input-48{
+    width: 48%;
+
+}
+
+.input-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    background: darkblue;
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+
+.form__link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+@media (max-width: 425px) {
+h1{
+    display: none ; 
+  
+} .form-register{
+    position: relative;
+    top: 7%;
+}
+
+
+}
